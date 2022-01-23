@@ -1,0 +1,152 @@
+:root {
+  /* 색상 */
+  --text-color: white;
+  --background-color: rgb(87, 47, 47);
+  --accent-color: rgb(41, 6, 6);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header */
+* {
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color);
+  margin-top: 30px;
+}
+
+.top {
+  list-style: none;
+  height: 150px;
+  width: 100%;
+}
+
+.HI h1 {
+  margin-left: 50px;
+  font-size: 70px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--accent-color);
+  margin: 10px 40px;
+  font-size: 25px;
+}
+nav {
+  height: 100px;
+}
+
+li {
+  list-style: none;
+  position: sticky;
+  top: 0;
+}
+/* About */
+.about {
+  margin-top: 30px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 400px;
+  border-radius: 5%;
+}
+
+.about-title {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.intro {
+  margin-top: 20px;
+  font-size: 35px;
+  color: var(--accent-color);
+  text-align: center;
+  line-height: 40px;
+}
+
+.intro-text {
+  margin: 50px;
+  font-size: 19px;
+  color: var(--accent-color);
+  text-align: center;
+}
+/* Like */
+.like-title {
+  text-align: start;
+  color: var(--text-color);
+  margin-left: 50px;
+  font-size: 60px;
+  margin-top: 250px;
+}
+
+.like-box {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-right: 20px;
+}
+
+.like-box img {
+  width: 400px;
+  height: 34 0px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.like-box p {
+  color: var(--accent-color);
+  font-size: 25px;
+  width: 300px;
+  margin: 15px 45px;
+  text-align: start;
+}
+
+/* Contact */
+.contact-title {
+  text-align: start;
+  color: var(--text-color);
+  font-size: 50px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.contact-content {
+  margin: 20px 50px;
+  text-align: left;
+  font-size: 0;
+  color: var(--accent-color);
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-content a {
+  width: 50px;
+  height: 50px;
+}
+.contact a {
+  font-size: 7px;
+  color: white;
+  text-decoration: none;
+}
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+}
