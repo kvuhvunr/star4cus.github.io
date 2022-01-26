@@ -41,14 +41,13 @@ header {
   margin: 10px 40px;
   font-size: 25px;
 }
-nav {
-  height: 100px;
+
+ul {
+  position: ;
 }
 
 li {
   list-style: none;
-  position: sticky;
-  top: 0;
 }
 /* About */
 .about {
@@ -129,12 +128,15 @@ li {
 }
 
 .contact-content {
-  margin: 20px 50px;
+  width: 300px;
+  margin: 40px 30px;
   text-align: left;
   font-size: 0;
   color: var(--accent-color);
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0;
 }
 
 .contact-content a {
